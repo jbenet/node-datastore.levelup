@@ -1,0 +1,31 @@
+{
+  "name": "datastore.levelup",
+  "version": "0.0.0",
+  "description": "datastore levelup wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "datastore",
+    "levelup"
+  ],
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "devDependencies": {
+    "levelup": "^0.18.3",
+    "memdown": "^0.10.1",
+    "tape": "^2.13.3"
+  },
+  "dependencies": {
+    "datastore.abstract": "^0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbenet/node-datastore.levelup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbenet/node-datastore.levelup/issues"
+  },
+  "homepage": "https://github.com/jbenet/node-datastore.levelup"
+}
